@@ -314,6 +314,8 @@ scheduler:
       - nvidia-p3809-gb300
       - nvidia-e5020-vera
       - nvidia-p5042-gh200
+      - nvidia-p4039-0000
+      - nvidia-p4140-0001
 
   - job: baseline-x86-sasha-lab
     event: *kbuild-gcc-15-x86-node-event
@@ -338,6 +340,7 @@ scheduler:
       - jetson-tx2-devkit
       - nvidia-e5020-vera
       - nvidia-p5042-gh200
+      - nvidia-p4039-0000
 
   - job: ltp-smoke-pull-labs
     event: *kbuild-gcc-15-x86-node-event

@@ -1058,6 +1058,18 @@ platforms:
     mach: nvidia
     boot_method: grub
 
+  # NVIDIA reference boards P4039 and P4140: UEFI + ACPI, booted over the
+  # network through GRUB.
+  nvidia-p4039-0000:
+    <<: *arm64-device
+    mach: nvidia
+    boot_method: grub
+
+  nvidia-p4140-0001:
+    <<: *arm64-device
+    mach: nvidia
+    boot_method: grub
+
   # HPE ProLiant DL345 Gen11, AMD EPYC 9655P.
   hpe-proliant-dl345-gen11:
     <<: *x86_64-device
